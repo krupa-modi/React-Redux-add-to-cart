@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* cart design */
+*{
+  margin: 0;
+  padding: 0;
+}
+.cart-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.cart-wrapper {
+    border: 1px solid lightgray;
+    display: flex;
+    margin-left: 3rem;
+}
+.img-wrapper img {
+    width: 250px;
+    /* height: 218px; */
+}
+.add-btn {
+    width: 125px;
+    height: 50px;
+    margin-top: 125px;
+    /* margin-right: 4px; */
+    margin-left: 16px;
+    text-align: center;
+    position: relative;
+    right: 136px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 15px;
+    border: unset;
+    border-radius: 5px;
+}
+.add-to-cart {
+    position: relative;
+    top: -300px;
+    right:20px;
+}
+.add-to-cart img {
+    width: 75px;
+}
+.text-wrapper{
+  margin-top:25px
+}
+span.cart-count {
+    position: absolute;
+    left: 46px;
+    top: 12px;
+    background-color: darkseagreen;
+    /* padding: 4px; */
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
